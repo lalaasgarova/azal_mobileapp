@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Azal</string>
+    <string name="contacts1" translatable="false">For general information</string>
+    <string name="contacts2">Call</string>
+    <string name="contacts3">Fax: + 994 (12) 437–40–87</string>
+    <string name="contacts4">Questions about Azal Miles</string>
+    <string name="contacts5">Assistance with Disabilities</string>
+    <string name="contacts6">From US:</string>
+    <string name="contacts7">For complaints and suggestions</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Azerbaijan Airlines</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="phone_number">+994125988880</string>
+    <string name="info1">Information for passengers</string>
+    <string name="info2">Coorporate information</string>
+    <string name="info3">Airport and Other Departments</string>
+    <string name="info">Information</string>
+    <string name="description_phone">Phone call image</string>
+    <string name="description_email">email image</string>
+    <string name="general_information_header">General Information</string>
+    <string name="baggage_header">Baggage</string>
+    <string name="delayed_baggage_tracking_header">Delayed Baggage Tracking</string>
+    <string name="electronic_tickets_header">Electronic Tickets</string>
+    <string name="flight_timetables_header">Flight Timetables</string>
+    <string name="online_ticket_purchase_header">Online Ticket Purchase</string>
+    <string name="general_conditions_header">General Conditions</string>
+    <string name="overbooking_header">Overbooking</string>
+    <string name="entry_customs_amp_currency_head"><![CDATA[Entry, Customs & Currency]]></string>
+    <string name="branded_fares_rules_header">Branded fares rules</string>
+    <string name="unwanted_passengers_header">Unwanted Passengers</string>
+    <string name="flight_tracker_header">Flight Tracker</string>
+    <string name="from_passengers_travelling_to_from_usa_header">From Passengers Travelling to/from USA</string>
+    <string name="from_passengers_travelling_to_from_eu_header">From Passengers Travelling to/from EU</string>
+    <string name="from_passengers_travelling_to_from_people_s_republic_of_china_header">From Passengers Travelling to/from People\'s Republic of China</string>
+    <string name="security_header">Security</string>
+    <string name="azal_oil_header">AZAL Oil</string>
+    <string name="air_traffic_control_header">Air Traffic Control</string>
+    <string name="international_carriage_contract_header">International Carriage Contract</string>
+    <string name="special_cases_of_transportation_header">Special Cases of Transportation</string>
+    <string name="transportation_of_a_group_header">Transportation of a Group</string>
+    <string name="sales_offices_header">Sales Offices</string>
+    <string name="information_for_agents_header">Information for Agents</string>
+    <string name="group_tr_string"><b>1.Terms and definitions\n\"Airline (Carrier)\" or \"Airline (Carrier) flights\"</b>- “Azerbaijan Airlines” Closed Joint Stock Company or all flights of “Azerbaijan Airlines” CJSC, which are carried out under Code J2. Discounts for the flights operated by “Buta Airways” can be applied only by special permission of the airline management.\n<b>\"CRS\"</b> - Computer Reservations System of the \"Azerbaijan Airlines\" airline \n<b>\"Group\"</b> - a group of persons, which consists of passengers above two years old, no less than ten people in the Economy Class, and no less than six people in Business Class and Comfort Club, and no less than 5 people in VIP Club booked for the same flights of the Azerbaijan Airlines, for the same date through the entire flight route. - a group of persons, which consists of at least 10 passengers with combined carriage (VIP Club+ Comfort Club / VIP Club + Business Class, VIP Club + Economy / Business Class + Comfort Club / /Business Class + Economy Class ) shall also be regarded as a group. \n<b>\"Group carriage\"</b> - carriage of a group of passengers booked for the same flights of the Azerbaijan Airlines airline, for the same date through the entire turnaround flight route. One-way carriage of passengers will not be regarded as group carriage. \n<b>\"Group fare\"</b> - cost of carriage of one airline passenger within a particular group, without taking into account any taxes and charges. \n<b>\"Customer\"</b> - a person or entity applying to the airline for carriage of a group under special group conditions. \n<b>\"Authorised agent\"</b> - organisation authorised by virtue of a special document to carry out additional actions related to passenger services on behalf of the Carrier, including but not limited to actions related to refund of money, issuance of duplicates and implementation of other service functions. \n<b>2. Conditions and rules of group reservations.</b> The following rules shall be valid for all group reservations for the flights of Azerbaijan Airlines, and the airline reserves the right to amend this document at any time without any previous notice. \n<b>2.1.</b>To enable considering the possibility of reservation and calculation of the cost of group carriage, the Customer shall send a standard written application form (the application form is available in Attachment A to these rules) through the airline\'s official website www.azal.az (www.swtravel.az) or to the email address at group@azal.az (group@swtravel.az) which shall contain minimum information about the group, including but not limited to: Route; Exact dates of flights; Number of passengers (adults, children under 12 years of age, children under 2 years of age); Class of service; Group character (passenger category). In addition to the foregoing items, all members of the group shall be directly related to the customer organization. The carrier shall consider the possibility of carriage of the group and calculate the cost (amount of a discount) within three business days, upon confirmation of receipt of the Customer\'s application by the airline. \n<b>2.2.</b> Sales department of “Silk Way Travel” will process the request. The contract for the group carriage will be concluded between the Customer and the representative of “Silk Way Travel” / Air Company. \n<b>2.3.</b> To confirm the group reservation, the Customer shall pay 20 (twenty) percent of the total cost of group carriage as a non-refundable deposit within two banking days, upon confirmation of the possibility of the carriage and provision of the estimated cost of carriage by the airline. Payment can be made through both EMD extract and by transfer to the Carrier\'s bank account. In high loading periods, the nonrefundable deposit will be 50%. \n<b>2.4.</b> Reservation of the group carriage shall be completed no later than 14 (fourteen) days before the expected date of the first flight. \n<b>2.5.</b> In case when the written application for the group carriage is received within a period less than 14 (fourteen) calendar days before the flight, the Customer shall pay the total cost of carriage within two banking days, but no later than seven calendar days before the flight date. \n<b>2.6.</b> The carriage, for which the application was received by the airline within a period less than 7 (seven) calendar day before the expected first flight date upon confirmation of receipt of the Customer\'s application by the airline, will be considered individually. In such a case, the airline reserves the right to apply individual conditions of group carriage, which are not provided for in these rules. \n<b>2.7.</b> The airline shall allow free substitution of surnames (group members) of passengers within the group, to the extent that the number the substituted surnames is not in excess of 20% of the total number of passenger in the group. Request for any change shall be exclusively in writing, and submitted directly by the Customer. Rounding shall be made to the biggest whole number. Each additional request for substitution of a passenger\'s (group member\'s) surname shall be realized with additional penalty payment in the amount of 50 (fifty) Euros. \n<b>2.8.</b> The Customer shall provide or confirm to the carrier the final composition of the group no later than within three business days before the expected date of flight, including complete passport details of all passengers within the group. \n<b>2.9.</b> In the case of reduction the number of the group members (the number of travelling passengers in the group) and informing the airline about it 14 days before the flight departure, a reduction of total number of group members up to 20% is permitted without penalty. A change is prohibited less than 14 days before departure - penalty in the amount of the deposit is levied. \n<b>2.10.</b> The airline reserves the right to unilaterally revise the possibility and conditions of the group carriage if the group size is changed by the Customer. \n<b>2.11.</b> In case of cancellation of the reserved group carriage within a period not less than 14 (fourteen) calendar days before the expected date of flight, the airline shall deduct a penalty in the amount of the deposit paid at the time of reservation. \n<b>2.12.</b> In case of cancellation of the reserved group carriage within a period not less than 14 (fourteen) calendar days, but more than 7 (seven) days before the expected date of flight, the airline shall deduct a penalty in the amount of 50% of total cost of carriage. \n<b>2.13.</b> In case of cancellation of the reserved group carriage within a period less than 7 days before the expected date of flight, but more than 72 hours before the flight, the airline shall deduct a penalty in the amount of 75% of total cost of carriage. \n<b>2.14.</b> In case of cancellation of the reserved group carriage within a period less than 72 hours before the expected date of flight, the paid amount shall not be refunded, except for the airport and other taxes and levies. \n<b>2.15.</b> In case of cancellation of the reserved group carriage after the commencement of carriage (partial carriage), the paid amount shall not be refunded, except for the airport and other taxes and levies. \n<b>2.16.</b> Refunding of individual air tickets within a confirmed group air carriage shall be prohibited, including the airport and other taxes and levies. In any case, the airline unilaterally reserves the right to provide or refuse in group transportation.</string>
+    <string name="general_info">Before purchasing a ticket for travel with Azerbaijan Airlines (Azerbaijan Airlines flag carrier), please familiarize yourself with the following rules of the airline.
+
+
+
+        \n\n<b>Documents required for travel</b>
+
+\n\nFor international flights, in addition to the ticket, you must have a valid passport and comply with the visa, customs and health regulations of the transit countries and the country of final destination. Failure to follow these rules may result in the denial of transportation.
+
+\n\nInformation for passengers Travelling to Republic of Turkey.
+
+\n\nAccording to the rules of entry into the Republic of Turkey, the validity of Azerbaijani citizens passport (including children and infants) must be at least 90 days from the date of entry into the country. In case of availability of a visa to stay in Turkey, the passport must be valid for 60 days after the expiry date of the visa.
+
+
+
+\n\n<b>Validity of the air ticket</b>
+
+\n\nThe ticket is valid for carriage of a passenger from point of origin to point of destination on route with the date and flight number on which a seat booked in the class of service and the time specified in the ticket.
+
+\n\nThe tickets purchased under the normal fares are valid for carriage of a passenger and his/her baggage for one year from the date of initial departure.
+
+\n\nThe tickets purchased at special fares are valid for a period from the date of your ticket issuance as defined in "not valid after" column. It is possible to extend the validity of such ticket for an additional fee.
+
+\n\nTickets are valid for transport only if the sequence of flight coupons is observed. If flight coupons are not used in the right sequence, the ticket becomes invalid.
+
+
+
+\n\n<b>Reservation and purchase</b>
+
+\n\nWe recommend that you reserve and buy tickets in advance from offices of the Azerbaijan Airlines flag carrier or its agents around the world.
+
+\n\nAfter competition of reservation, you will be provided with printed information specifying the deadline when you need to purchase the ticket.
+
+\n\nIf you do not purchase the ticket during the stated period of time, the reservation will be automatically canceled by the automatic reservations system and it can cause inconvenience in your planned journey.
+
+\n\nIn case you notice a mistake in your air ticket the air ticket can be cancelled by Airline only within 3 (three) hours from the time of air ticket issuance but at least 3 hours prior to flight departure according to the schedule. To do this, please contact the place of purchase of the ticket.
+
+        \n\n<b>During check-in and boarding</b>
+
+\n\nCheck-in for Azerbaijan Airlines flights begins 24 hours prior to departure at the Heydar Aliyev International Airport; at the other airports, generally, 2 hours before scheduled departure time. Check-in at Milan Malpensa Airport, John F. Kennedy International Airport, Tbilisi International Airport, Tel Aviv Ben Gurion International Airport, Dubai International Airport, Tehran Imam Khomeini International Airport begins 3 hours prior to departure.
+
+\n\nCheck-in usually closes 60 minutes before departure.
+
+\n\nYou can also use our optional online check-in service and get your electronic boarding pass.
+
+\n\nPlease be available for boarding at the boarding gate 20 minutes before your flight to avoid missing your flight.
+
+
+
+/n/n<b>For the attention of passengers purchasing air tickets online</b>
+
+/n/nIn order to avoid cases of fraud related to the credit cards, we kindly ask you to provide the origin of the credit card if requested by the conforming employees of the airline realizing registration (or official representatives of the airline) to check the necessary data.
+
+/n/nIn order to rebook or refund previously online purchased air ticket through the airline's official website www.azal.az it is required to contact the airline directly  via the following contacts: +99412-598-88-80 or callcenter@azal.az.</string>
+    <string name="history_header">History</string>
+    <string name="history"><b>Azerbaijan Airlines (AZAL)</b> is a major air carrier and one of the leaders of the aviation community of the CIS countries. Total route network of the airline is 40 destinations in 25 countries. In 2016, Azerbaijan Airlines carried over 2 million passengers.
+        \n\nAircrafts of Azerbaijani civil aviation fully meets the standards of the International Civil Aviation Organization (ICAO), and AZAL is a member of the most prestigious civil aviation association - the International Air Transport Association (IATA).
+        \n\nAZAL has one of the newest airplane fleet that consists of 23 airplanes.
+        \n\nAZAL headquarters is in Baku, at Heydar Aliyev International Airport that meets international standards.
+        \n\n<b>The history of the airline and CJSC Azerbaijan Airlines</b>
+        \n\nIn April 1992, after gaining independence, a state aviation body - State Concern Azerbaijan Airlines (Azərbaycan Hava Yolları) was established in Azerbaijan by the decision of the government of the Republic.
+        \n\nIn 1996, Azeraeronavigation Air Traffic Control Center was established as part of the Azerbaijan Airlines State Concern.
+        \n\nIn 1997, AZALOIL was established as part of Azerbaijan Airlines.
+        \n\nIn 1999, a new international terminal was opened at the Baku airport.
+        \n\nIn 2000, Azerbaijan Airlines received the first Boeing 757-200 aircrafts.
+        \n\nIn 2004, by the decision of President Ilham Aliyev, \"Bina\" Airport in Baku was named \"Heydar Aliyev International Airport\".
+        \n\nIn 2004, the airport in the city of Nakhchivan received the status of international air hub.
+        \n\nIn 2005, a new cargo terminal (Baku Cargo Terminal) was opened at Heydar Aliyev International Airport.
+        \n\nIn 2006, Ganja International Airport was reconstructed.
+        \n\nIn April 2008, by the order of the Azerbaijani President, AZAL state concern was reorganized into CJSC Azerbaijan Airlines.
+        \n\nIn 2009, airports in Zagatala and Lankaran received international status after major reconstruction.
+        \n\nIn 2011 Azerbaijan Airlines received the European service standard from the European Economic Chamber of Trade, Commerce and Industry (EEIG).
+        \n\nIn 2011, Azerbaijan Airlines received Boeing 767-300ER aircrafts.
+        \n\nIn 2012, an international airport was built in Gabala.
+        \n\nIn 2013, Azerbaijan Airlines received Airbus A340-500 long-haul passenger aircrafts.
+        \n\nIn 2013, \"Azalagro\" airline company was opened in Yevlakh.
+        \n\nIn 2014 the new airport terminal of Heydar Aliyev International Airport (Terminal 1) was put into operation.
+        \n\nIn 2014, the fleet of Azerbaijan Airlines replenished with modern Boeing 787-8 Dreamliner aircrafts.
+        \n\nIn 2014, Azerbaijan Airlines received jet planes from the Brazilian manufacturer Embraer 190 and Embraer 170.
+        \n\nIn 2014, Azerbaijan Airlines began to carry out regular transatlantic flights from Baku to New York.
+        \n\nIn 2015, British consulting company Skytrax, the world-famous and most influential in assessing the quality of airline services, awarded Azerbaijani national carrier and Heydar Aliyev International Airport a prestigious \"4 stars\" rating.
+        \n\nIn 2016, Azerbaijan signed the Open Skies agreement with the United States of America.
+        \n\nIn 2016, Nakhchivan International Airport was reconstructed.
+        \n\nTelescopic passenger boarding bridges appeared at the airport for the first time.
+        \n\nIn 2016 CJSC AZAL formed Azerbaijan’s first lowcost airline - Buta Airways.
+        \n\nIn 2017 Skytrax named the Heydar Aliyev International Airport the best among all airports in Russia and CIS countries.</string>
+    <string name="flight_safety">\<b>"Flight safety is a top priority for Azerbaijan Airlines\"–Nationwide Leader Heydar Aliyev</b>
+        \n\nAzerbaijan Airlines flag carrier is continuously improving flight safety. The safety standards applied by Azerbaijan Airlines today comply with the world’s most stringent requirements. It is little wonder that the results of an audit by the world’s biggest and most authoritative civil aviation organizations, ICAO, released in February 2010 point to a high level of flight safety of Azerbaijan Airlines in Azerbaijan.
+        \n\nAs of 2008, Azerbaijan Airlines successfully completed an IATA operational safety audit. Having completed the audit, Azerbaijan Airlines has been included on the register of IOSA Operators and become a full-fledged member of the community of the world’s safest airlines. Azerbaijan Airlines managers and personnel work hard on a daily basis to further improve the airline’s safety performance, flight frequency, culture and quality of passenger services and the overall image of the airline in the eyes of the world and the aviation community.
+        \n\nThe IATA Operational Safety Audit (IOSA) program is an internationally recognized and accepted evaluation system designed to assess the operational management and control systems of an airline.
+        \n\nToday IOSA is an advanced and congruent standard for the entire aviation industry in the area of air operations and its safety. IOSA is continuously updated, elaborated, evaluated and actualized in accordance with the changing requirements of the aviation industry and regulatory documents. According to IATA requirements, all IATA member-airlines must complete the IOSA audit. Successful companies are included on the register of IOSA Operators.
+        \n\nIOSA certification is currently conducted by eight independent audit companies accredited by IATA. The IOSA Standards Manual contains 872 requirements with which the airlines must comply to complete the audit. The IOSA certificate allows admission to international alliances of the world’s leading airlines and is also a mandatory condition for IATA membership. International recognition of Azerbaijan Airlines’s safety performance provides our airline with a higher status in both domestic and international air service.</string>
+    <string name="training_center">The aviation training center, AZAL Training, was founded in 2010. AZAL Training has modern training facilities providing comprehensive initial training, recurrent training and advanced training for crew members and ground personnel. AZAL Training is certified by a competent authority in the field of civil aviation pertaining to the training of aviation personnel. Training at the center is conducted by a highly qualified teaching staff, including instructors who have substantial experience in operating modern aircraft and have been trained at the world\'s leading academic centers.
+        \n\nThe training center is equipped with advanced teaching aids and sophisticated aviation training simulators.
+        \n\nWhen teaching a foreign language (English) in line with new ICAO (International Civil Aviation Organization) standards, the training center uses multimedia technologies to significantly improve the quality of the educational process and the effectiveness of training.
+        \n\nIn 2010, a Full Flight Simulator designed for training pilots of the Airbus A320 family, Boeing 757/767, ATR-42/72 and IL-76 was commissioned. Currently, these simulators are the most advanced in their class and correspond to level D, the highest international standard of certification of flight simulators.
+        \n\nThe training center is also equipped with a modern training complex for rescue training, allowing to simulate various types of emergencies occurring on board an aircraft.
+        \n\nToday, AZAL Training is operating a Multi-Crew Cooperation Course program, which allows graduates of flying schools to successfully master modern aircraft of the Airbus A320 and Boeing 757 families.</string>
+    <string name="header_training_center">Training Center</string>
+    <string name="header_visiting_days">Visiting Days</string>
+    <string name="visiting_days">RECEPTION SCHEDULE  FOR THE CITIZENS AT
+
+\n\n“AZERBAIJAN AIRLINES” CLOSED JOINT STOCK COMPANY IN 2017
+
+
+
+\n\n\n\nJAHANGIR JALAL OGLU ASKEROV
+
+        \n\nPRESIDENT OF “AZERBAIJAN AIRLINES” CLOSED JOINT STOCK COMPANY
+
+\n\nReception day:  First Monday of every month
+
+
+
+\n\n\n\nSABIR GULMIRZA OGLU ILYASOV
+
+\n\nFIRST VICE-PRESIDENT OF “AZERBAIJAN AIRLINES” CLOSED JOINT STOCK COMPANY
+
+\n\nReception day: Friday
+
+
+
+\n\n\n\nILHAM GOJA OGLU AMIROV
+
+\n\nVICE-PRESIDENT OF “AZERBAIJAN AIRLINES” CLOSED JOINT STOCK COMPANY
+
+\n\nReception day: Tuesday
+
+
+
+\n\n\n\nETIBAR KHUDAVERDI OGLU HUSEYNOV
+
+\n\nVICE-PRESIDENT OF “AZERBAIJAN AIRLINES” CLOSED JOINT STOCK COMPANY
+
+\n\nReception day: Wednesday
+
+
+
+\n\n\n\nFARDIL FARRUKH OGLU MAMMADOV
+
+\n\nVICE-PRESIDENT OF “AZERBAIJAN AIRLINES” CLOSED JOINT STOCK COMPANY
+
+\n\nReception day: Monday
+
+
+
+\n\n\n\nELDAR ALI OGLU HAJIYEV
+
+\n\nVICE-PRESIDENT OF “AZERBAIJAN AIRLINES” CLOSED JOINT STOCK COMPANY
+
+\n\nReception day: Friday
+
+
+
+\n\n\n\nNOTE:     <i>THE SIGN-UP TIME FOR RECEPTION: from 9 AM  every day.  RECEPTION STARTS at 5 PM.</i>
+
+
+
+\n\n\n\nPRIVILEGED PERSONS ARE RECEIVED OUT OF TURN.
+
+\n\nContacts:  <i>498-34-71, 598 52 37,     497 26 00 (ext. 52 59)</i> </string>
+    <string name="header_our_awards">Our Awards</string>
+    <string name="our_awards_1"><b>Certified by IATA Operational Safety Audit (IOSA)</b>
+\n\nIATA Operational Safety Audit  (IOSA)
+
+\n\nThe IATA Operational Safety Audit (IOSA) program is an internationally recognized and accepted evaluation system designed to assess the operational management and control systems of an airline. IOSA\'s quality audit principles are designed to conduct audits in a standardized manner.
+\n\n<b>Benefits</b>
+\nWith the implementation and international acceptance of IOSA, airlines and regulators achieve the following benefits:
+\n\u2022A reduction of costs and audit resource requirements for airlines and regulators
+\n\u2022Continuous updating of standards to reflect regulatory revisions and the evolution of best practices within the industry
+\n\u2022A quality audit program under the continuing stewardship of IATA
+\n\u2022Accredited audit organizations with formally trained and qualified auditors
+\n\u2022Accredited training organizations with structured auditor training courses
+\n\u2022A structured audit methodology, including standardized checklists
+\n\u2022Elimination of audit redundancy through mutual acceptance of audit reports
+\n\u2022Development of auditor training courses for the airline industry</string>
+    <string name="our_awards_2">Since 2015 the national carrier "Azerbaijan Airlines" CJSC (AZAL) was awarded  with a prestigious "4 Star" rating by the famous and most influential in the field of the airlines’ service quality evaluation British consulting company Skytrax.
+
+    \n\nAZAL was awarded this status based on the results of independent international audit  of Skytrax, which assessed the airline’s quality and level of service.
+
+    \n\nThe airlines rating by Skytrax is measured on a scale ranging from 1 to 5 "stars", and is recognized by the aviation community as an unbiased and indisputable criterion in evaluating service quality.
+
+    \n\nAccording to the current rating of  Skytrax, only 38 airlines with a "4 stars" rating were recorded in the world, including such well-known global carriers like Emirates, Air France, Lufthansa, Turkish Airlines, KLM, British Airways, Japan Airlines and others.
+
+    \n\nUntil recently, there was only one "4 stars" carrier registered among  the countries of Eastern Europe and the CIS.
+
+    \n\nBefore awarding AZAL "4 Star" rating, independent international auditors judged the company based on more than  800 criteria covering service quality and staff work standards.
+
+    \n\nComponents such as an airline’s website, of the product as a whole airline's, presentation of information on it, convenience of online booking, and other services that are important from the point of passengers, were scrutinized.
+
+    \n\nDetailed assessment were also made into the cabin’s condition, its cleanliness ,  on-board entertainment; crew uniforms, the crew’s interactions with passengers,  as well as operating efficiency, duty free service, informativity content of a logbook, the quality of in-flight catering and comfortableness of seats.
+
+    \n\nIn addition, the national carrier "Azerbaijan Airlines" CJSC was nominated for  Skytrax agency’s “World Airline Awards” in the category of "World Airline  that achieved  most progress”, and taking its second place of honor among such global carriers such as Air France and Delta Air Lines.
+
+    \n\n"Azerbaijani Airlines" CJSC (AZAL) meets all international aviation standards and endeavours to do everything to make your flights unforgettable.
+
+    </string>
+    <string name="career_header">Career</string>
+    <string name="career_1">"Azerbaijan Airlines" is always seeking talented, dedicated professionals. If you are interested in joining an environment that encourages teamwork and creativity, please download the job application form to apply for a career opportunity with "Azerbaijan Airlines" and its enterprises.</string>
+    <string name="career"><b>Download</b></string>
+    <string name="career_2">Fill the application form and send it along with your autobiography to <b>hr@azal.az</b></string>
+    <string name="boeing_757_200_header">Boeing 757-200</string>
+    <string name="boeing_757_200">The Boeing 757 is a mid-size, narrow-body twinjet airliner manufactured by Boeing Commercial Airplanes. Passenger versions of the 757 can carry between 186 and 279 passengers, and have a maximum range of 3,100 to 3,900 nautical miles (5,900 to 7,200 km) depending on variant and seating configuration. The Boeing 757 has been produced in two fuselage lengths: the original 757-200 entered service in 1983, and the stretched 757-300 entered service in 1999. Freighter versions of the 757-200, the 757-200PF and 757-200SF, have also been produced.
+
+\n\nLaunched with orders from Eastern Air Lines and British Airways in 1978, the Boeing 757 was intended to replace the previous narrow-body 727 trijet on short and medium routes. The 757 was conceived and designed in tandem with the 767, a wide-body twinjet with which it shares design features and two-crew flight decks. The operating similarities between the two aircraft allow pilots to obtain a common type rating to operate both jets, after the completion of a transition course. After its introduction, the 757 became commonly used by operators in both the United States and Europe, and particularly with mainline U.S. carriers and European charter airlines. The 757 has also been acquired for use as government, military, and VIP transport.
+
+\n\nProduction of the 757 ended on October 28, 2004 after 1,050 had been built. The final aircraft was delivered to Shanghai Airlines on November 28, 2005. A total of 945 Boeing 757 aircraft were in airline service in July 2010. Delta Air Lines operates the largest 757 fleet as of 2010.
+
+\n\n757-200
+\nThe 757-200 is the definitive version and forms the majority of 757s sold. It shares its fuselage cross section with the smaller 727 and 737. Boeing positioned the plane above the 737 and as an eventual replacement for the 727.
+
+\n\nDuring development, the 757-200 was originally meant to be a little shorter in length. In the end it was positioned not only above the 737, but also the 727. This variant can carry 228 passengers in a single class. However, with a seat pitch of 29 inches it can carry a maximum of 234 passengers. This configuration is the FAA limit for the aircraft due to emergency exit rules.
+
+\n\nThe 757-200 was available in two different door configurations. One version used three standard doors per side with an additional, smaller door aft of the wing on each side for emergency evacuations. All eight door locations are equipped with inflatable evacuation slides. The alternate version is equipped with three standard doors per side (two towards the front and one at the aft of the cabin) with two "plug-type" over-wing exits per side replacing the smaller door aft of the wing.</string>
+    <string name="azerbaijan_airports_header">Azerbaijan Airports</string>
+    <string name="azerbaijan_airports_1">Azerbaijan Airlines (AZAL, Azərbaycan Hava Yolları in Azeri) is part of the Azerbaijan Hava Yollari Closed Joint Stock Company, the biggest Azerbaijani airline and national flag carrier. Headquartered in Baku, it is a member of the International Air Transport Association (IATA).
+
+\n\nThe airline’s base airport, the Baku Heydar Aliyev international airport, is located 20 km north-east of Baku. Azerbaijan Hava Yollari operates passenger flights to countries of Europe, the CIS, Middle East and Asia. In 2014, after purchasing new Boeing aircraft for long-haul flights, the airline plans to open regular flights to destinations in North America and South-East Asia. As a national flag carrier, Azerbaijan Hava Yollari holds an important place in the international aviation community and a leading position in the CIS. Azerbaijan Hava Yollari is also a regional and CIS leader for the number of new aircraft.
+
+\n\nBaku – named after H.Aliyev
+
+\n\nBaku Heydar Aliyev international airport is one of the six international airports serving Azerbaijan. Its previous name was Bina international airport, named after a settlement near Baku. On 10 March 2004, it was renamed after Azerbaijan’s nationwide leader Heydar Aliyev. The airport is located 20 km northeast of the capital Baku and is linked to the city by two modern highways commissioned in 2008 and 2009. It is the base hub of the Azerbaijan Airlines national flag carrier.There are duty-free shops in the airport’s international terminal. Unlike most other international airports, there are shops not only in the departures but also in the arrivals area. Payments are accepted by credit card, and can be also made in Azerbaijani Manats, US Dollars, Euros and Russian Rubles.
+
+\n\nBaku Heydar Aliyev international airport complies with international requirements. Due to its favorable geographical location, it has become a first-choice regional airport for transfer flights between East and West, North and South.
+
+        \n\n<b><i>Layout of the Baku Heydar Aliyev airport:</i></b></string>
+    <string name="azerbaijan_airports_3">Baku Heydar Aliyev airport offical web site:</string>
+    <string name="visa_header">ONLINE ELECTRONIC VISA PORTAL OF AZERBAIJAN REPUBLIC</string>
+    <string name="visa">The State Agency for Public Service and Social Innovations under the President of the Republic of Azerbaijan carries out the function of the Portal\'s operator.
+
+\n\nYou can get the e-visa in just 3 steps (apply, pay and download e-Visa) via the Portal.
+
+\n\nA foreigners or a stateless person can apply directly through the portal for a single entry visa valid for 30 days stay in the country.
+
+\n\nFor more information and visa issuance:</string>
+    <string name="visa_2">https://evisa.gov.az/en/</string>
+    <string name="class_upgrade_header">«Class Upgrade» service for more comfortable flights</string>
+    <string name="class_upgrade">You can take advantage of using the service “Class Upgrade”  upon check-in at the airport on flights of "Azerbaijan Airlines".
+
+\n\nFor a more comfortable flight the passengers of Economy Class can change their seats with the seats in Business Class, Comfort Club or VIP Club service classes.
+
+\n\nAt the same time it is possible to upgrade service class from the Comfort Club to VIP Club.
+
+\n\nYou can purchase this «Class Upgrade» service directly at check-in desks upon arrival at the airport.
+
+\n\nExcept comfortable seats in the cabin of Business Class, by purchasing «Class Upgrade» service, you also get access to the Business Lounge (AZAL Lounge) at Heydar Aliyev International Airport.
+
+\n\nAlso, this service can be purchased directly on board of the aircraft in advance by asking the flight attendants.
+
+\n\nCost of services varies depending on flight destination and flight date.
+
+\n\nNote:
+
+\n\nBaggage allowance will be provided in accordance with new service class.
+
+\n\nMeals on board of the aircraft are provided in accordance with the service class of originally purchased ticket.
+
+\n\nFor more information, call:
+
+
+
+\n\n\n\n<b>(+99412) 598-88-80
+
+\n\n*8880
+            \n\nE-mail:  callcenter@azal.az</b></string>
+    <string name="rules_for_passengers_header">Rules For Passengers</string>
+    <string name="rules_for_passengers">With the ever-growing threat of terrorism, it is of the utmost importance to Azerbaijan Airlines that we ensure the safety of our passengers at all stages of air travel. From check-in to the collection of luggage at the destination airport, we are paying special attention to passenger safety in flight and in compliance with the established order on board our aircraft.
+
+\n\nSome passengers, under alcoholic intoxication, ignore the established rules of conduct in flight and commit illegal acts on board the aircraft, thus destabilizing the psychological climate on board, seriously impeding the normal work of the crew and bringing discomfort to other passengers and ultimately posing a real threat to flight safety. Under such circumstances, provisions of the 1963 Tokyo Convention apply, under which the pilot in command, in order to ensure safety and maintain discipline on board, can disembark any passenger who has committed or is about to commit an act that would endanger the aircraft, other passengers and their property on the territory of any state where the aircraft lands. Acting within the framework of international and national laws, Azerbaijan Airlines provides crew members of its aircraft a wide range of powers to curb unlawful activities and restore order on board. In the event of any aggressive acts committed by passengers, crew members are entitled to use all possibilities, including measures of physical restraint, to resolve the situation and send the offender to law enforcement officials at the airport. Additionally, pilots in command of Azerbaijan Airlines aircraft have the right to make an unplanned landing at any nearest airport to restore order on board and ensure the safety of passengers.
+
+        \n\n<b>We request that you familiarize yourself with the following rules of conduct in flight to avoid unpleasant situations during your flight.</b>
+
+\n\nEvery passenger on board the aircraft becomes part of aviation security requirements. For violations of aviation security rules, regulations and requirements on domestic flights, passengers bear responsibility in accordance with the applicable legislation of the Republic of Azerbaijan. For violations of aviation security rules, regulations and requirements on international flights, passengers bear responsibility in accordance with the requirements of international air law (international conventions on civil aviation) and the legislation of the country of destination or stopover countries, regardless of the country of registration or operation of the aircraft.
+
+
+\n\n\n\n<b>Classification of offenses on board the aircraft:
+
+
+\n\n\n\nViolation of the rules of conduct on board the aircraft during the flight shall mean the following:</b>
+
+\n\nViolation of the rules of conduct established by the airline (smoking, use of electronic devices, etc.);
+\n\u2022Attack (physical violence), intimidation or threats against members of the crew or obstruction of the crew in carrying out its responsibilities;
+\n\u2022Attack (physical abuse), intimidation or threats against other passengers;
+\n\u2022Failure to fulfill the requirements of the crew to comply with the rules of aviation security;
+\n\u2022Use of drugs or excessive alcohol leading to intoxication;
+\n\u2022Misbehavior, abuse, verbal abuse, etc.;
+\n\u2022Abuse or violence (actions) in relation to adult or underage passengers;
+\n\u2022Malicious (intentional) damage (destruction) or disabling the property or equipment of the aircraft;
+\n\u2022Other violations (unauthorized smoking, misuse of electronic devices, failure to leave a passenger terminal and aircraft, etc.);
+\n\u2022Any other conduct threatening flight safety or having signs of a crime responsibility for which is envisaged under criminal legislation of the Republic of Azerbaijan.
+
+
+\n\nThe passenger committing the above acts is considered to have breached the Rules of conduct on air transport and on board the aircraft of the Republic of Azerbaijan.
+
+\n\nWithout confining itself to these methods only, Azerbaijan Airlines has introduced a system of accounting and monitoring of persons who have committed offenses on our flights. Such persons are included on the "List of unwanted passengers" for a period of three months or more depending on the degree of public danger of the offense.
+
+\n\nBesides including offenders on the "List of unwanted passengers,” the airline reserves the right to press for a recovery of all expenses it has incurred due to the unlawful actions in a judicial manner.</string>
+    <string name="ehnanced_comfort_seats_header">Ehnanced Comfort Seats</string>
+    <string name="ehnanced_comfort_seats"><b>Chargeable enhanced comfort seats at the aircraft</b>
+
+\n\n\nLeg space seat – 25 Euro
+
+\n\nQuite zone seats – 15 Euro
+
+\n\nYou can choose comfortable seats before flight at ticket sales offices and via call center (tel: +99412 5988880, email: callcenter@azal.az) as well as during check-in at the airport or on board the aircraft
+
+\n\nFor safety reasons some category passengers which cannot read and perform required essential safety procedures or passengers under age of 15 shall not be allocated at the emergency seats.
+
+        \n\n<i>In case if comfort seats cannot be provided by airline paid amount will be refunded.</i></string>
+    <string name="ehc">Comfort seat selection pre-sale</string>
+    <string name="ehc1">Comfort seat selection at airport or after boarding</string>
+</resources>
+
+

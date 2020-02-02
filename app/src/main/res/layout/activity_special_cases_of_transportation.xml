@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".InformationForPassengers">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:text="@string/air_traffic_control_header"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:adjustViewBounds="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView11"
+                app:srcCompat="@drawable/airtraff" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:text="Lankaran Airport:"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:text="On April 1, 1996, by decision of the Board of Directors of the State Civil Aviation Company, under the auspices of ICAO and the European Bank for Reconstruction and Development, the air navigation service company Azeraeronavigatsiya(AZANS) was created, making it the first of the structural divisions of Azerbaijan Hava Yollari State Company to obtain a legally independent status. The primary mission of the new company was to ensure the safety of flights in the Republic of Azerbaijan's airspace through air traffic servicing and coordination.
+
+
+
+The main objectives of the company's operations were:
+
+\u2022 to guarantee high-quality air navigation services in accordance with international standards;
+\u2022 to utilize new international standards and recommendations flexibly, and to develop and modernize technical systems and information support;
+\u2022 to train and prepare qualified personnel; and
+\u2022 to provide reliable and high-quality air navigational and meteorological information.
+
+
+One of the main objectives of the new organization was a complete technical and technological upgrade in accordance with the requirements of the ICAO CNS/ATM concept. Within days of its founding, Azeraeronavigatsiya began to tackle a number of complex tasks related to building a national flight navigation support system. This was also brought about by the focused national policy implemented by the head of state, the national leader of Azerbaijan, Heydar Aliyev.
+
+Active involvement in all regional projects, the introduction of state-of-the-art navigational equipment, modern technologies, and the procedures and recommended practices of ICAO, and, of course, the training of highly-qualified specialists markedly increased the economic attractiveness of Baku for international airline companies and ensured steady growth in air traffic. One of the most important positive aspects in the development of the nation's aviation was the commissioning of a new international passenger terminal at Baku’s Heydar Aliyev Airport.
+
+In late 1996, the AZAL State Company signed an agreement under which Azeraeronavigatsiya received a loan from the European Bank for Reconstruction and Development to purchase and install state-of-the-art equipment for an automated system at the Baku Main ATC Center. To achieve the new company's objectives, the upgrade employed technologies supported by communications, navigation, and surveillance systems through the international harmonization of ATM standards and procedures.
+
+Work to create a new Main Air Traffic Control Center began in 1997. This became one of the most important achievements of Azerbaijan's civil aviation, which at that time began to become actively integrated into the international aviation community. The Automated ATC System Center, which became the heart of the country's air navigation system, was built according to technical and operational levels conforming to the International Civil Aviation Organization's CNS/ATM concept.
+
+Work began in 2002 to upgrade the radar systems and install RSM 970 S and STAR2000 radars at Baku, Nakhichevan, Yevlakh, and Ganja and later in Lankaran and Gabala. This has resulted in maximum radar coverage of the airspace above the republic and neighboring countries..
+
+All runways were equipped with all-weather landing systems and ILS 420/DME precision approach beacons, which in turn made it possible to support the approach and landing of all types of ICAO category II and III aircraft; ATC towers were built, and ATC and flight support radar and communications equipment was installed, along with automated ATC systems. The planned implementation of the project to introduce a Wide Area Multilateration System and ADS-B throughout the Republic of Azerbaijan was begun.
+
+At the required level and in accordance with international requirements and standards, a large-scale project for a newAzeraeronavigatsiya Air Traffic Control and Main ATC System Center building was developed in order to be ready to service the continuously growing air traffic flow, and in 2012, construction was begun on the complex, including a tower 65 meters tall. The new Center will employ state-of-the-art technology and forward-looking advances, such as automated ATC systems from the Spanish company INDRA, OLDİ, Searidge Camera Surveillance Technologies AMHS, ADS-B, A-SMGCS, etc.
+
+Today, AZANS supports 270 daily flights of all classes of aircraft, of which more than half are transit flights of leading international carriers conducting flights between Europe and Asia. After the successful introduction of the Reduced Vertical Separation Minima (RVSM), air traffic markedly increased. Over the past 16 years, air traffic has increased by more than 200%. Azeraeronavigatsiya Air Traffic Control Administration is working to integrate itself into the European Air Navigation System through the introduction of ICAO and ЕUROCONTROL standards and recommended practices.
+
+Membership in numerous international and European aviation organizations, the introduction of an international air traffic management regulatory framework in accordance with European standards, and the holding of international conferences in the area of air navigation will make it possible for Azerbaijan to uphold its national interests in the European community and to become a full participant in Europe-wide air traffic management (ATM) programs."
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+
+        </android.support.constraint.ConstraintLayout>
+
+
+    </TableLayout>
+</ScrollView>

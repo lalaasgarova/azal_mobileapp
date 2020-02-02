@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".InformationForPassengers">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:text="@string/azal_oil_header"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView11"
+                app:srcCompat="@drawable/azal_oil" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:text="The AZALOIL Fuels and Lubricants Administration, a structural division of Azerbaijan Hava Yollari CJSC, has been operating in the civil aviation system since 1997. The main function of the AZALOIL Fuels and Lubricants Administration is the fueling of all types of aircraft with TS-1 aircraft fuel per standard AZS 242-2006 (GOST 10227-86) at all airports located in the Republic of Azerbaijan.
+
+The AZALOIL Fuels and Lubricants Administration also performs the following functions:
+
+\u2022 draining aircraft fuel from all types of aircraft;
+\u2022 supplying the airport's motor vehicles and mechanical equipment with the appropriate fuels, lubricants, and special fluids at all airports located in the Republic of Azerbaijan;
+\u2022  developing the main base and improving the conditions for supplying both aircraft and motor vehicles with fuels and lubricants; and
+studying the supply and demand of fuels and lubricants required to support the operation of aircraft, motor vehicles, and airfield equipment, and creating the required reserves of fuels and lubricants.
+
+
+The AZALOIL Fuels and Lubricants Administration has its own transportation support facilities, including fuel trucks, oil trucks, repair shops, parking and storage areas, and a fuels and lubricants laboratory for checking the quality of aviation fuels and lubricants received, stored, and dispensed.
+
+The AZALOIL Fuels and Lubricants Administration's main storage facility at Heydar Aliyev International Airport has a state-of-the-art automated fuel dispensing complex.
+
+The AZALOIL Fuels and Lubricants Administration currently has fuels and lubricants servicing departments at the Ganja, Lankaran, Gabala, and Zabrat airports and the Pirallahi heliport, which are equipped with the required fueling equipment.
+
+Helicopters are fueled at the Zabrat airport and Pirallahi heliport.
+
+For fueling aircraft, the company has modern Russian, English, German, and French fuel trucks with a capacity ranging from 12 to 60 cubic meters, which meet all international standards.
+
+
+
+Director: Fahraddin Kazibekov
+
+Address: Heydar Aliyev International Airport
+
+               AZ1044 Baku, Azerbaijan
+
+Tel: (+994 12) 497-25-39, 497-27-24, 497-27-62
+
+Fax: (+994 12) 497-26-23
+
+E-mail: azaloil@azal.az"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+
+
+        </android.support.constraint.ConstraintLayout>
+
+
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.azal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ContactsActivity" />
+        <activity
+            android:name=".AboutActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NavigationDrawer"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".BeforeYouFlyActivity" />
+        <activity android:name=".ServicesActivity" />
+        <activity android:name=".InformationActivity" />
+        <activity android:name=".AzalOilActivity" />
+        <activity android:name=".CorporateInformation" />
+        <activity android:name=".InformationAirportAndOtherDepartments" />
+        <activity android:name=".AirTrafficControl" />
+        <activity android:name=".SecurityActivity" />
+        <activity android:name=".InformationForPassengers" />
+        <activity android:name=".InternationalCarriageContract" />
+        <activity android:name=".SpecialCasesOfTransportation" />
+        <activity android:name=".TransportationOfAGroup" />
+        <activity android:name=".SalesOffices" />
+        <activity android:name=".InformationForAgents" />
+        <activity android:name=".GeneralInformation" />
+        <activity android:name=".Ac" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".News" />
+        <activity android:name=".History" />
+        <activity android:name=".FlightSafety" />
+        <activity android:name=".TrainingCenter" />
+        <activity android:name=".VisitingDays" />
+        <activity android:name=".OurAwards" />
+        <activity android:name=".LogotypeBrandMark" />
+        <activity android:name=".Career" />
+        <activity android:name=".Boeing757_200" />
+        <activity android:name=".AzerbaijanAirports" />
+        <activity android:name=".VisaForAzerbaijan" />
+        <activity android:name=".ClassUpgrade" />
+        <activity android:name=".RulesForPassengers" />
+        <activity android:name=".EnhancedComfortSeats"></activity>
+    </application>
+
+</manifest>

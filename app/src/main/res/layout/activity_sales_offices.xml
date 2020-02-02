@@ -1,0 +1,2400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textView39"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sales_offices_header"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="24sp"
+                        android:textStyle="bold"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/sales_offices" />
+                </TableRow>
+
+
+
+                <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:stretchColumns="*">
+
+
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            >
+
+                            <TextView
+                                android:layout_width="90dp"
+                                android:layout_height="match_parent"
+                                android:layout_column="0"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:text="Your Country"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="City"
+                                android:layout_margin="1dp"
+                                android:layout_column="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:textStyle="bold"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="Adress"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:textStyle="bold"
+                                android:layout_column="2"
+                                />
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="Azerbaijan"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="Baku"
+                                android:layout_margin="1dp"
+                                android:layout_column="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="Nizami 126A, Nizami street, AZ-1010
+
+tel.: (+994 12) 598-88-80
+
+fax: (+994 12) 437-40-87
+
+e-mail: info@azal.az"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:layout_column="2" />
+                        </TableRow>
+                    <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Azerbaijan"
+                        android:layout_margin="1dp"
+                        android:layout_column="0"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Baku"
+                        android:layout_margin="1dp"
+                        android:layout_column="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Heydar Aliyev International Airport
+
+tel.: (+994 12) 497-26-00, +994 (12) 437-47-57
+
+fax: (+994 12) 598-52-37
+
+e-mail: callcenter@azal.az"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:layout_column="2" />
+                </TableRow>
+
+
+                <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="Azerbaijan"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="Ganja"
+                                android:layout_margin="1dp"
+                                android:layout_column="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="240, Ataturk Ave.
+
+tel.:(+ 994 44) 222-03-25
+
+fax: (+994 22) 56-27-00
+
+e-mail: ganja@azal.az"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:layout_column="2" />
+                        </TableRow>
+
+                        <TableRow
+                            android:background="#000000"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="Azerbaijan"
+                                android:layout_margin="1dp"
+                                android:layout_column="0"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="Lankaran"
+                                android:layout_margin="1dp"
+                                android:layout_column="1"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="International Airport
+
+tel.: (+994 50) 312-15-93
+
+e-mail: lankaran@azal.az"
+                                android:layout_margin="1dp"
+                                android:background="#FFFFFF"
+                                android:gravity="center"
+                                android:layout_column="2" />
+                        </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Azerbaijan"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Nakhchievan"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Ticket office, Jalil Mammadguluzadeh
+Street tel.:Ticket office, Jalil Mammadguluzadeh Street
+
+tel.: (+994 136) 44-19-88
+
+e-mail: nakhchivan@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Azerbaijan"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Sumgait"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="17A, Sulh street, 3-rd Mdistrict,, AZ-50003
+
+tel.: (+99 412) 437-90-84
+
+e-mail: sumgait@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Belarus"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Minsk"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="10, Starovilenskiy Trakt
+
+tel/fax: +375 (29) 132-13-13, +375 (44) 585-10-10
+
+Call centre: +375 (17) 394-95-10
+
+e-mail: minsk@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Belarus"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Minsk"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Minsk National Airport
+
+3rd Floor, left wing of Departures Hall/Zone/Check-in Gates
+
+tel/fax: (+375-17) 279-14-25
+
+e-mail: minsk@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Belgium"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Brussels"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Park Hill, Mommaertslaan 18A,1831 Diegem-Brussels, Belgium.
+
+tel.: (+ 3 202) 716-00-70
+
+fax: (+ 3 202) 716-00-86
+
+e-mail: brussels@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="China"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Beijing"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Tower 1, Kunsha Center, 16 Xinyuanli, Chaoyang
+
+District, Beijing 100027,P.R. China
+
+tel.: +861084683475 /5834/7586
+
+fax: +861084683549
+
+e-mail: beijing@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Czech Republic"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Prague"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="161 00, Aviaticka 1017/2, Ruzyne-Airport Prague, Terminal 1,
+
+tel.: (+420) 777 901 013
+
+e-mail: prague@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="France"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Paris"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="9 rue de l'Echelle
+
+75001 Paris
+
+tel.: 0140150005
+
+e-mail: Paris@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="France"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Paris"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Azerbaijan Airlines c/o Aviareps |
+
+122 Avenue des Champs Elysées | 75008 Paris | France
+
+For Bookings: tel:+33 1 71 72 27 47
+
+e-mail: azal.France@aviareps.com
+
+For  Sales:
+
+tel:+33 1 53 43 33 94 Fax  +33 1 53 43 79 19
+
+e-mail: azalsales.France@aviareps.com"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Georgia"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Tbilisi"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Apt. 2, house 28, Chavchadze str.
+
+Tel: (+99 532) 255 88 88
+
+fax: (+99 532) 25-13-01 (+99 532) 25-16-69
+
+e-mail: tbilisi@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Germany"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Frankfurt"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Kaiserstr.77, 60329 Frankfurt
+tel.:Germany Call Center 01805 161 220 (reservations)
+069-770 673 044 (Sales and Marketing)
+
+e-mail: frankfurt@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Germany"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Berlin"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Augsburger Straße 31
+10789 Berlin, Germany
+
+Tel.: +49 (0) 30-54 82 29 08
+Fax: +49 (0) 30-53 05 10 65
+
+e-mail: berlin@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Islamic Republic of Iran"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Tehran"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="3rd fl. Nafisi ave, Ekbaran Town, Tehran/Iran
+
+tel.: (+9821) 44634099
+
+1st floor, № 3, Farhad Alley, opposite petrol station, Khoramshahr st., Tehran / Iran
+
+
+tel: 98 2188 533638 (39,40.-46)
+
+No 3- Marmar Aley Juction of eskandari, azadi ave. Tehran/Iran
+
+e-mail: tehran@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Italy"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Milan"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="via della Torre, 1 - 20127 (tube stop Turro - Metro MM1)
+
+tel.: (+39) 199 201 701
+
+e-mail: Milan@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Italy"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Rome"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Via Salandra, 1/A 00187
+
+tel.:(+3906) 199 201 701
+
+fax: (+3906) 62292049
+
+e-mail: rome@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Japan"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Tokyo"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Eurastours, INC 26-8, Higashi-Azabu ev-1, Minato-Ku, Tokyo 106-0044
+
+tel.: (+8135) 562-33-81
+
+fax: (+8135) 562-33-80
+
+e-mail: tokyo@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Kazakhstan"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Aktau"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="building 5, 7 Mdisrtict, apt. 41
+
+tel.: (+ 7292) 201-021
+
+fax: (+ 7292) 201-022
+
+e-mail: aktau@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Korea"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Seoul"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="RM 328, Gimpo Int'l Cargo Terminal, 210, Haneul-Gil, Gangseo-Gu, Seoul, Korea, 157-240
+
+tel.: (+822) 779 8864
+
+fax: (+822) 779 8864
+
+e-mail: seoul@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Malaysia"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Kuala Lumpur"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Suite 1502 – 1503, Level 15, Central Plaza, 34 Jalan Sultan Ismail, 50250, Kuala Lumpur, Malaysia.
+
+Tel : 603-2148 8033
+
+Fax : 603-2148 9033
+
+e-mail : malaysia@azal.az  "
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Netherlands"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Amsterdam"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Triport Building 1-6th, Floor Evert van de Beekstraat 46, 1118 CL Schiphol , The Netherlands.
+
+tel.: (+3 120) 655-36-50
+
+fax: (+3 120) 655-36-51
+
+e-mail: amsterdam@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Netherlands"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Schiphol-Rijk"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Beechavenue 104, 1119
+
+PP Schiphol-Rijk, The Netherlands.
+
+tel.: (+3 120) 655-17-32
+
+fax: (+3 120) 623-01-51
+
+e-mail: amsterdam@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Russia"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Astrakhan"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Proezd Aeroportovskiy 1, Airport Building
+
+tel.: (+78512) 39-30-70, 454833,
+
+e-mail: Astrakhan@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Russia"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Ekaterinburg"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Uralskaya st. 58/1.
+
+Tel.:(+7 343) 360-40-46, Fax.:(+7 343) 360-41-77
+
+e-mail: ekaterinburg@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Russia"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Kazan"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="office 9 , 87 Julius Fucik street
+
+тел.:+7-987-236-11-88; +7-987-006-78-16
+
+6 Martyn Mejlauk street, 1st floor
+
+тел.:7-905-313-11-88; +7-906-320-13-13;
+
+e-mail: kazan@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Russia"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Krasnoyarsk"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="6 Matrosova st.,
+
+tel.: +7(391)2-666-1001
+
+e-mail: krasnoyarsk@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Russia"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Mineralniye Vodi"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="International Airport, 2-nd floor, office &quot;AZAL&quot;
+
+tel: +7 918 888 4746, +7 918 888 4847  +7 87922 33090
+
+5A , Razumovsky street, Essentuki
+
+tel.: +7 87934 63003
+
+e-mail: Minvodi@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Russia"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Moscow"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Domodedovo International Airport
+
+tel:  +7(495) 967-87-63
+
+e-mail: moscow@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Russia"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Moscow"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="24, Koutuzovsky ave,
+
+tel:  +7(499) 243-33-02; +7(499) 243-33-07
+
+e-mail: moscow@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Russia"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Moscow"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="89, Vavilova street
+
+tel:  +7(495) 660-17-77; +7(499) 132-00-77
+
+e-mail: moscow@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Russia"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Moscow"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Moscow, Vnukovo International Airport,  2nd floor, ticket office №22
+
+tel:  +7 (967)132-6881"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Russia"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Nijniy Novgorod"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="20, Vokzalnaya str.
+
+tel.: +7 (8312) 461562
+
+e-mail: Nnovgorod@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Russia"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Novosibirsk"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Building 3, Gogol st., Novosibirsk;
+tel.:+7 383 22-009-22
+Office 318, Airport Tolmachevo
+tel.:+7 383 2169-442.
+
+e-mail: novosibirsk@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Russia"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Perm"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Perm, Krisanova street, d.21
+
+tel.: +7 342 236 67 15; +7 342 236 66 69;
+
+Airport &quot;Perm&quot;
+
+office number 4 (24/7)
+
+tel.:+7 342 294 99 87
+
+e-mail: perm@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Russia"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Saint-Petersburg"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="177, Moskovsky ave
+
+tel.: (+7812) 387-32-94 (+7812) 387-10-36 (+7812) 371-87-54 (+7812) 388-06-09
+
+(+7812) 387-32-94
+
+e-mail: st.peterburg@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Spain"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Madrid"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Aviatourism España SL
+
+Eloy Gonzalo 27, 3rd Floor Offices 4 &amp; 5
+
+28010 Madrid, Spain
+
+tel.: +34 91 562 55 16
+
+fax: +34 91 344 17 26
+
+e-mail: madrid@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="State of Israel"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Tel-Aviv"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="1, Ben Yehuda str.Tel Aviv, Israel
+Ground Floor, Mona Tours Sales Office
+Tel: +972-3-5141865
++972-3-5141869
+for agents - 03 514 18 32
+e-mail: telaviv@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Sweden"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Stockholm"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Kungsgatan 44 5th Floor SE 111 35
+
+tel.: (+468) 442-24-42
+
+fax: (+468) 22-55-88
+
+e-mail: stockholm@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Turkey"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Ankara"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="138/A, Ataturk ave., Kavaklidere Ankara
+
+tel.: (+90 312) 427-26-77
+
+fax: (+90 312) 427-26-76
+
+e-mail: ankara@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                                       <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Turkey"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Antalya"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="ANTALYA INTERNATIONAL AIRPORT
+tel : +90 544 677 57 99
+e-mail: antalya@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Turkey"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Istanbul"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="VALİKONAĞI STREET NO:9/B  NİŞANTAŞI / ŞİŞLİ
+tel: +90 212 296 35 30 , +90 212 296 37 33 , +90 212 465 90 22 , +90 212 465 9 23
+fax : +90 212 465 90 25
+e-mail : turkey@azal.az
+e-mail: Istanbul@azal.az
+
+ATATÜRK INTERNATIONAL AIRPORT
+tel: +90 212 465 56 46
+fax: +90 212 465 45 16
+e-mail: ist@azal.az
+
+SABİHA GÖKÇEN INTERNATIONAL AIRPORT
+tel: +90 212 588 87 40
+fax: +90 212 588 87 39
+e-mail: saw@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="UAE"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Dubai"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Ground Floor, Al Hamdan Building, Abu Baker Al Siddiqi,Str.,Clock Tower, Deira,
+
+tel.: (+9714) 295-71-14 (+9714) 295-68-60
+
+fax: (+9714) 295-73-97 (+9714) 295-68-60
+
+e-mail: dubai@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="UK"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="London"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="PO Box 445, Horley, Surrey RH6 6AP UK
+
+tel.: (+44 1414) 16-08-88 (call center)
+
+fax: ( +44 20) 331-826-91
+
+e-mail: london@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Ukraine"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Kiev"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Office 2, S. Petlyury (Kominterna) str., 3/25, Kiev, Ukraine, 01032
+
+tel.: (+38 044) 246-42-36
+
+fax: (+38 044) 246-42-36
+
+e-mail: kiev@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="USA"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="New York"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="“Azerbaijan Airlines” CJSC
+
+Terminal One
+
+JFK International Airport
+
+Jamaica, NY 11430
+
+
+
+USA Call Center 24/7: 1-844-598-88-80 (toll free for local US callers)
+
+International Call Center 24/7: +994 12 598-88-80 (for callers outside US)
+
+e-mail: newyork@azal.az"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+                    <TableRow
+                        android:background="#000000"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Uzbekistan"
+                            android:layout_margin="1dp"
+                            android:layout_column="0"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Tashkent"
+                            android:layout_margin="1dp"
+                            android:layout_column="1"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Glinka str. 48
+
+tel: +99897 464-0-555
+
+Working hours: 10:00-20:00"
+                            android:layout_margin="1dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:layout_column="2" />
+                    </TableRow>
+
+
+                </TableLayout>
+            </TableLayout>
+
+
+    </TableLayout>
+</ScrollView>

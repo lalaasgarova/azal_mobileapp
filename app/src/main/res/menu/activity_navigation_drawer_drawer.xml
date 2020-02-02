@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_before_you_fly"
+            android:title="Before you fly" />
+        <item
+            android:id="@+id/nav_services"
+            android:title="Services" />
+        <item
+            android:id="@+id/nav_info"
+            android:title="Information" />
+
+        <item
+            android:id="@+id/nav_azal_miles"
+            android:title="Azal Miles" />
+    </group>
+
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="About us" />
+            <item
+                android:id="@+id/nav_our_fleet"
+                android:title="Our Fleet" />
+        </menu>
+    </item>
+
+
+    <item android:title="Information">
+        <menu>
+            <item
+                android:id="@+id/nav_information_for_passengers"
+                android:title="Information for passengers" />
+            <item
+                android:id="@+id/nav_corporate_information"
+                android:title="Corporate information" />
+            <item
+                android:id="@+id/nav_airport_and_other_departments"
+                android:title="Airport and other departments" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".InformationForPassengers">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:text="@string/international_carriage_contract_header"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:adjustViewBounds="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView1"
+                app:srcCompat="@drawable/international_carriage" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:text="CONDITIONS OF CONTRACT
+NOTICE: If the passenger’s journey involves an ultimate destination or stop in a country other than the country of departure, the Warsaw or Montreal Conventions may be applicable. The Convention governs and, in most cases, limits the liability of carriers for death or personal injury and in respect of loss of or damage to baggage. "
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:text="1. As used in this contract, “ticket” means this passenger ticket and baggage check or this itinerary /receipt- an electronic ticket of which these conditions and the notices form part. “Carriage” is equivalent to “transportation”,” carrier” means all air carriers that carry or undertake the carrying of the passenger, or his baggage, or perform any other service incidental to such air carriage. ”Electronic ticket” means the itinerary receipt issued by or on behalf of carrier the Electronic Coupons, or a boarding document, if applicable;  “Warsaw Convention” means the Convention for the Unification of Certain Rules Relating to International Carriage by Air signed at WARSAW on October 12th, 1929, or that Convention as amended at the Hague on  September 28th, 1955, whichever may be applicable; &quot; Montreal Convention &quot; means the Convention for the Unification of Certain Rules Relating to International Carriage by Air signed in Montreal on May 28th, 1999
+
+2. Carriage hereunder is subject to the rules and limitations relating to liability established by the Warsaw or Montreal Conventions, unless such carriage is not “international carriage” as defined by that Convention.
+
+3. Since it is not inconsistent with the above carriage and other services performed by each carrier are subject to:(1) provisions contained in the ticket, (1) applicable tariffs, (1) carrier’s conditions of carriage and related regulations which are made part hereof (and are available on application at the offices of carrier).
+
+4. Carrier’s name may be abbreviated in the ticket, the full name and it’s Abbreviation being set forth in carrier’s tariffs handbook, conditions of carriage, and timetables: carrier’s address shall be the airport of departure shown opposite the first abbreviation of carrier’s name in the ticket: the agreed stopping places are those places set forth in this ticket or as shown in carrier’s timetable as scheduled stopping places on the passenger’s route: carriage to be performed hereunder by several successive carriers is regarded as a single operation.
+
+5. At any carrier issuing a ticket for carriage over the lines of another Air carrier does so only as its Agent.
+
+6. Any exclusion or limitation of liability of carrier shall apply also to any agents, servants and representatives of carrier and any person whose aircraft is used by carrier for carriage and its agents, servants and representatives.
+
+7. Checked baggage will be delivered to bearer of the baggage check, in case of damage to baggage moving in international transportation complaint must be made in writing to carrier immediately after discovery of damage and, at the latest ,within seven days from receipt: in case of delay ,complaint must be made within 21 days from the baggage was delivered. See tariffs or conditions of carriage regarding non-international transportation.
+
+8. This ticket is valid for one year from date of issue, except as otherwise provided in this ticket, in carriers tariffs, conditions of carriage or related regulations. The fare for carriage hereunder is subject to change prior to commencement of carriage. Carrier may refuse transportation if the applicable fare has not been paid.
+
+9. Carrier undertakes to do everything possible to carry the passenger and baggage in reasonable time. Times shown in timetables or elsewhere are not guaranteed and form no part of this contract. Carrier may without notice substitute alternate carriers or aircraft, and may alter or omit stopping places shown on the ticket in case of necessary. Schedules are subject to change without notice. Carrier assumes no responsibility for connecting flights
+
+10. Passengers shall comply with Government travel requirements, present exit, entry and other required documents and arrive at airport by time fixed by carrier or, if no time is fixed, early enough to complete departure procedures.
+
+11. No agent, servant or representative of carrier has authority to alter, modify or waive any provisions of this contract."
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:text="Carrier reserves the right to refuse carriage to any person who has acquired a ticket by violating any of applicable law or carrier’s tariffs, rules or regulations. Passenger Ticket and Baggage Check are  issued by the carrier whose name is specified in the “Issued by” section of the ticket or baggage check"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+
+
+
+        </android.support.constraint.ConstraintLayout>
+
+
+    </TableLayout>
+</ScrollView>
